@@ -27,7 +27,9 @@
     "css declaration order",
     "rational-css",
     "order-css",
-    "order"
+    "order",
+    "stylelint-config-rational-order",
+    "stylelint-config-rational-order-fix"
   ],
   "dependencies": {
     "stylelint": "^13.13.1",
