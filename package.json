@@ -7,10 +7,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/constverum/stylelint-config-rational-order.git"
+    "url": "git+https://github.com/Allohamora/stylelint-config-rational-order.git"
   },
   "bugs": {
-    "url": "https://github.com/constverum/stylelint-config-rational-order/issues"
+    "url": "https://github.com/Allohamora/stylelint-config-rational-order/issues"
   },
   "scripts": {
     "lint": "node ./node_modules/eslint/bin/eslint.js .",
@@ -43,5 +43,5 @@
     "jest": "^27.0.6",
     "prettier": "^2.3.2"
   },
-  "homepage": "https://github.com/constverum/stylelint-config-rational-order"
+  "homepage": "https://github.com/Allohamora/stylelint-config-rational-order"
 }

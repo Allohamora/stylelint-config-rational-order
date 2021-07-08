@@ -1,5 +1,5 @@
 # stylelint-config-rational-order-fix
-## stylelint-config-rational-order with updated dependencies for fix npm audit vulnerabilities.
+## [stylelint-config-rational-order](https://www.npmjs.com/package/stylelint-config-rational-order) with updated dependencies for fix npm audit vulnerabilities.
 
 [![NPM version][version-img]][npm-url]
 [![NPM downloads][downloads-img]][npm-url]
