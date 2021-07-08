@@ -1,4 +1,5 @@
-# stylelint-config-rational-order
+# stylelint-config-rational-order-fix
+## version with updated dependencies for fix npm audit vulnerabilities.
 
 [![NPM version][version-img]][npm-url]
 [![NPM downloads][downloads-img]][npm-url]
@@ -57,9 +58,9 @@ Stylelint config that sorts related property declarations by grouping together f
 1.  Add `stylelint`, `stylelint-order` and this package to your project:
 
 ```bash
-npm install --save-dev stylelint stylelint-order stylelint-config-rational-order
+npm install --save-dev stylelint stylelint-order stylelint-config-rational-order-fix
 # or, if you prefer yarn over npm:
-yarn add --dev stylelint stylelint-order stylelint-config-rational-order
+yarn add --dev stylelint stylelint-order stylelint-config-rational-order-fix
 ```
 
 2.  Add this package to the end of your extends array inside Stylelint
@@ -69,7 +70,7 @@ yarn add --dev stylelint stylelint-order stylelint-config-rational-order
 {
   "extends": [
     // "stylelint-config-standard",
-    "stylelint-config-rational-order"
+    "stylelint-config-rational-order-fix"
   ]
 }
 ```
@@ -79,7 +80,7 @@ This shareable config contains the following:
 {
   "plugins": [
     "stylelint-order",
-    "stylelint-config-rational-order/plugin"
+    "stylelint-config-rational-order-fix/plugin"
   ],
   "rules": {
     "order/properties-order": [],
@@ -91,7 +92,7 @@ This shareable config contains the following:
 }
 ```
 
-Since it adds `stylelint-order` and `stylelint-config-rational-order` to plugins and also adds required rules, you don't have to do this yourself when extending this config.
+Since it adds `stylelint-order` and `stylelint-config-rational-order-fix` to plugins and also adds required rules, you don't have to do this yourself when extending this config.
 
 
 ## Optional options / rules
